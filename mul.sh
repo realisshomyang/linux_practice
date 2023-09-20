@@ -5,7 +5,7 @@ end=$2
 
 # 시작 숫자와 끝 숫자가 1에서 9 사이의 숫자인지 확인
 if ! [[ $start =~ ^[1-9]$ ]] || ! [[ $end =~ ^[1-9]$ ]]; then
-  echo "시작 숫자와 끝 숫자는 1에서 9 사이의 숫자여야 합니다."
+  echo "The start and end numbers must be between 1 and 9."
   exit 1
 fi
 
